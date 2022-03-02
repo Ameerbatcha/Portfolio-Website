@@ -1,0 +1,58 @@
+.header{
+    color: black;
+    height: 70px;
+    background-color: rgb(250, 175, 83);
+    text-align: center;
+    font-size: 35px;
+}
+
+.dashboard{
+    height: 150px;
+    background-color: rgb(174, 179, 179);
+}
+
+#image{
+
+    float: left;
+}
+#option1{
+   background-color: rgb(143, 143, 211);
+    width: fit-content;
+    color: crimson;
+    font-size: 60px;
+    border: 3px solid black;
+
+}
+
+#option2{ 
+    background-color: rgb(245, 192, 47);
+    margin-left: 2px;
+    width: fit-content;
+    color: crimson;
+    font-size: 60px;
+    border: 3px solid black;
+    
+
+}
+
+#option3{
+    background-color: rgb(143, 143, 211);
+    width: fit-content;
+    margin-left: 2px;
+    width: fit-content;
+    color: crimson;
+    font-size: 60px;
+    border: 3px solid black;
+   
+}
+
+#option4{
+    background-color: rgb(245, 192, 47);
+    margin-left: 2px;
+    width: fit-content;
+    color: crimson;
+    font-size: 60px;
+    border: 3px solid black;
+   
+
+}

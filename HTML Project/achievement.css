@@ -1,0 +1,29 @@
+.header{
+    height:65px;
+    background-color: grey;
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+}
+
+.back{
+  float: left;
+    width: fit-content;
+    color: rgb(0, 0, 0);
+    border: 5px solid grey;;
+}
+#button{
+    font-size: 30px;
+    font-weight: 100;
+}
+.content{
+    margin-left: 8%;
+    height: 100%;
+    background-color: crimson;
+    font-size: larger;
+    font-weight: bold;
+
+}
+
+.heading{
+    color: white;
+}

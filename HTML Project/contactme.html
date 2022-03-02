@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="contactme.css">
+    <title>Contact Me</title>
+
+</head>
+
+<body>
+
+    <div class="header">
+
+        <div class="back">
+            <a href="index.html" target="_self"> <span id="button"> <img src="yellowhome.jpg" width="30px" height="50px"
+            alt="home image"><b>Home</b></span></a>
+        </div>
+
+        <h1 style="text-align: center;">Contact Us</h1>
+
+    </div> <br>
+
+    <div class="content">
+
+        <form autocomplete="on" target="_top">
+
+            <!-- getting name in text field using lable element and input element of forms -->
+            <label for="Name">Full Name</label>
+            <input type="text" name="Name" placeholder="Enter Your Name" required><br><br>
+
+            <!-- getting email using input elemnet of form and also providing lable -->
+            <label for="emailid">Email</label>
+            <input type="email" name="emailid" placeholder="test@gmail.com" required><br><br>
+
+            <!-- getting mob no using input elemnet of form and also providing lable -->
+            <label for="mobno">Mobile No</label>
+            <input type="number" name="mobno" maxlength="10"><br><br>
+
+            <!-- getting details using select elemnet of form and also providing lable -->
+            <label for="through"> How do you came to know about us?</label>
+            <select name="through">
+                <option value="Friends">Friends</option>
+                <option value="Advertisement">Advertisement</option>
+                <option value="Institutions">Institutions</option>
+                <option value="others">others</option>
+            </select><br><br>
+
+            <!-- gettingdetails using input elemnet of form and also providing lable -->
+            <label for="favservice">Which service are you looking for from me?</label> <br>
+            <input type="checkbox" name="favservice" value=">Native apps">Native apps <br>
+            <input type="checkbox" name="favservice" value=">Web Designs ">Web Designs <br>
+            <input type="checkbox" name="favservice" value="Complete Website">Complete Website <br>
+            <input type="checkbox" name="favservice" value="Python class ">Python class <br>
+            <input type="checkbox" name="favservice" value="Java Class">Java Class <br><br>
+
+            <!-- getting details using input elemnet of form with radio as value within type attributre of 
+             input elemnt and also providing lable -->
+            <label for="sugestion">Do you Like this websit which is being designed by one of our student only with
+                HTML?</label><br>
+            <input type="radio" name="sugestion" value="Yes">Yes
+            <input type="radio" name="sugestion" value="No">No <br><br>
+
+            <!-- getting detail using textarea elemnet of form and also providing lable -->
+            <label for="feedback">Few Words About my previous services if any?</label> <br>
+            <textarea name="feedback" cols="15" rows="5"></textarea> <br><br>
+
+            <!-- submitting the collected form using button element of form-->
+            <button type="submit"
+                onclick="alert('Your form is Submited , you will be contacted by our staffs')">Submit</button>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
